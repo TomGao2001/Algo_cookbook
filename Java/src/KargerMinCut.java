@@ -7,10 +7,10 @@ import java.util.Scanner;
 
 public class KargerMinCut {
     private static int size = 200;
-    private static int trials = 100;
+    private static int trials = 1000;
     private static int minCut = Integer.MAX_VALUE;
     private static Random r = new Random();
-    private static int[][] adjList = new int[size][size+10];//as numbers
+    private static int[][] adjList = new int[size][size+10000];//as numbers
     private static boolean[] stillAvailableList = new boolean[size];
 
     public static void main(String[] args) throws FileNotFoundException{
@@ -73,7 +73,10 @@ public class KargerMinCut {
 
         for(int i = 0;i < inputMat[b].length; i++){
             if(inputMat[b][i] != -1) {
-                inputMat[a][idx] = inputMat[b][i]; //OOB on size
+                int ii = inputMat[b][i];
+                if(idx >= inputMat[a].length)
+                    System.out.println("Stop");
+                inputMat[a][idx] = ii; //idx OOB
                 inputMat[b][i] = -1;
                 idx++;
             }
