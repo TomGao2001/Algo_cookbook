@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c844b437-8384-45eb-9227-b7813727eb83" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Java/src/InvPowerMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Java/src/PowerMethod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Python3/__init__.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/out/production/Java/KargerMinCut.class" beforeDir="false" afterPath="$PROJECT_DIR$/Java/out/production/Java/KargerMinCut.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Java/src/KargerMinCut.java" beforeDir="false" afterPath="$PROJECT_DIR$/Java/src/KargerMinCut.java" afterDir="false" />
-    </list>
+    <list default="true" id="c844b437-8384-45eb-9227-b7813727eb83" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,10 +12,11 @@
     <session id="-1293408836">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="3" />
           <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
@@ -75,7 +69,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -92,6 +85,7 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -127,10 +121,9 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-6" y="-6" width="1933" height="1053" extended-state="6" />
-    <editor active="true" />
+    <frame x="-6" y="-6" width="1933" height="1093" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25226668" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25493333" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
