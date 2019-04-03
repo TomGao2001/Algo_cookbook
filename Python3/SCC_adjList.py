@@ -90,9 +90,6 @@ def main():
     for i in range(g.numV):
         g.updateList(result.count(i))
     g.printMaxList()
-    f = open("result.txt", "w+")
-    f.write(str(g.max))
-    f.close()
 
 
 if __name__ == '__main__':
