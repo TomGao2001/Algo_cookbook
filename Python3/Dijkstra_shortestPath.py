@@ -65,10 +65,6 @@ def main():
     g.dijkstra(1)
     g.printOrder()
     #print(g.A)
-    #NOT 4685 2610 6222 2052 6893 2834 2029 4399 2633 4483
-    #some incorrect
-
-
 
 if __name__ == '__main__':
     threading.stack_size(67108864)
